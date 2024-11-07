@@ -50,6 +50,9 @@ psd
 thumb
 sketch
 
+# Ignore the dist directory
+dist/
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
