@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Layout Masterclass</title>
     <link
@@ -12,46 +11,125 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="frame">
-      <div class="header">
-        CURRY CAFE! CURRY CAFE! FLEMINGTON & NORTHCOTE! NUMBER ONE BEST QUALIFY!
-        VEG & NON. VEG CURRY CAFE!
+    <div class="top">
+      <select id="year">
+        <option value="all">Year: All</option>
+        <option value="year1">Year: 2024</option>
+        <option value="year2">Year: 2023</option>
+        <option value="year3">Year: 2022</option>
+      </select>
+      <select id="programme">
+        <option value="all">Programme: All</option>
+        <option value="programme1">Programme: A</option>
+        <option value="programme2">Programme: B</option>
+        <option value="programme3">Programme: C</option>
+      </select>
+      <select id="themes">
+        <option value="all">Themes: All</option>
+        <option value="theme1">Theme: PGDIPFA</option>
+        <option value="theme2">Theme: BFA(HONS)</option>
+        <option value="theme3">Theme: MFA</option>
+      </select>
+      <select id="practice">
+        <option value="all">Practice: All</option>
+        <option value="practice1">Kate Bedford</option>
+        <option value="practice2">Patricia Ramos</option>
+        <option value="practice3">Trevor Newman</option>
+      </select>
+      <select id="students">
+        <option value="all">Students</option>
+      </select>
+    </div>
+    <div class="gallery">
+      <div class="container">
+        <span class="top-left">Top Left</span>
+        <span class="top-right">Top Right</span>
+        <span class="bottom-left">Bottom Left</span>
+        <span class="bottom-right">Read more</span>
+        <img
+          src="https://cdn.pixabay.com/photo/2023/03/28/09/29/tulip-7882705_1280.jpg"
+          class="center-image"
+        />
       </div>
-      <div class="left-sidebar">
-        <div class="left-section1">LOCATIONS * MENU * SHOP</div>
-        <div class="left-section2">SPICY NEWSLETTER</div>
-        <div class="left-section3">
-          <i class="fa-brands fa-facebook" style="color: orange"></i>
-          <i class="fa-brands fa-instagram" style="color: orange"></i>
-        </div>
+      <div class="container">
+        <span class="top-left">Top Left</span>
+        <span class="top-right">Top Right</span>
+        <span class="bottom-left">Bottom Left</span>
+        <span class="bottom-right">Read more</span>
+        <img
+          src="https://cdn.pixabay.com/photo/2023/11/04/07/40/cat-8364405_1280.jpg"
+          class="center-image"
+        />
       </div>
-
-      <div class="main-content">
-        <h1>
-          हलदी <br />
-          Curry<br />Cafe
-        </h1>
-        <div class="main-left">
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftheplanetsworld.com%2Ftravel-tips1%2Fpeople-of-india-in-pictures-7.jpg&f=1&nofb=1&ipt=fabe1e18265c0a2b2f9cb56bfe4580c00f1986eb8c349abd1acca49b64774433&ipo=images"
-          />
-        </div>
-        <div class="main-right">
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.I2gKifXh2OLXopwB0DtG2wHaEK%26pid%3DApi&f=1&ipt=ed3884146c0060aaf46d384252c9119dca81f742c3c1bae476c6c244a2c64b56&ipo=images"
-          />
-        </div>
+      <div class="container">
+        <span class="top-left">Top Left</span>
+        <span class="top-right">Top Right</span>
+        <span class="bottom-left">Bottom Left</span>
+        <span class="bottom-right">Read more</span>
+        <img
+          src="https://cdn.pixabay.com/photo/2024/11/03/22/57/dogs-9172481_1280.jpg"
+          class="center-image"
+        />
       </div>
-      <div class="right-sidebar">
-        <div class="right-section1">* ORDER T ㅡ A *</div>
-        <div class="right-section2">* RESERVATIONS *</div>
+      <div class="container">
+        <span class="top-left">Top Left</span>
+        <span class="top-right">Top Right</span>
+        <span class="bottom-left">Bottom Left</span>
+        <span class="bottom-right">Read more</span>
+        <img
+          src="https://cdn.pixabay.com/photo/2021/10/01/16/15/woman-6672896_1280.jpg"
+          class="center-image"
+        />
       </div>
-      <div class="footer">
-        BEST QUALITY! STAY SPICY -- NUMBER ONE BEST QUALITY! EVERY DAY OPEN!
-        FLEMINGTON & NORTHCOTE! HOME DELIVERY ~ N
+      <div class="container">
+        <span class="top-left">Top Left</span>
+        <span class="top-right">Top Right</span>
+        <span class="bottom-left">Bottom Left</span>
+        <span class="bottom-right">Read more</span>
+        <img
+          src="https://cdn.pixabay.com/photo/2022/12/09/00/47/autumn-7644257_1280.jpg"
+          class="center-image"
+        />
       </div>
-      <div class="comment">
-        <i class="fa-solid fa-comment" style="color: white"></i>
+      <div class="container">
+        <span class="top-left">Top Left</span>
+        <span class="top-right">Top Right</span>
+        <span class="bottom-left">Bottom Left</span>
+        <span class="bottom-right">Read more</span>
+        <img
+          src="https://cdn.pixabay.com/photo/2022/10/17/09/41/twig-7527181_1280.jpg"
+          class="center-image"
+        />
+      </div>
+      <div class="container">
+        <span class="top-left">Top Left</span>
+        <span class="top-right">Top Right</span>
+        <span class="bottom-left">Bottom Left</span>
+        <span class="bottom-right">Read more</span>
+        <img
+          src="https://cdn.pixabay.com/photo/2024/05/19/13/40/daisy-8772631_1280.jpg"
+          class="center-image"
+        />
+      </div>
+      <div class="container">
+        <span class="top-left">Top Left</span>
+        <span class="top-right">Top Right</span>
+        <span class="bottom-left">Bottom Left</span>
+        <span class="bottom-right">Read more</span>
+        <img
+          src="https://cdn.pixabay.com/photo/2024/10/27/07/12/women-9152739_1280.jpg"
+          class="center-image"
+        />
+      </div>
+      <div class="container">
+        <span class="top-left">Top Left</span>
+        <span class="top-right">Top Right</span>
+        <span class="bottom-left">Bottom Left</span>
+        <span class="bottom-right">Read more</span>
+        <img
+          src="https://cdn.pixabay.com/photo/2024/04/10/17/02/towel-8688401_1280.jpg"
+          class="center-image"
+        />
       </div>
     </div>
   </body>
